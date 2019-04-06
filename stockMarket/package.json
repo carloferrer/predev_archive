@@ -1,0 +1,23 @@
+{
+  "name": "stockmarket",
+  "version": "1.0.0",
+  "description": "Return max potential profit in a day while trading at 'the stock market'.",
+  "main": "stockMarket.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloferrer/stockMarket.git"
+  },
+  "author": "Carlo Ferrer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloferrer/stockMarket/issues"
+  },
+  "homepage": "https://github.com/carloferrer/stockMarket#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}

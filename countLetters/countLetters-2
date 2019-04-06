@@ -1,0 +1,5 @@
+function countLetters(letters) {
+
+}
+
+console.log(countLetters(process.argv[2]));

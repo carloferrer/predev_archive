@@ -1,0 +1,38 @@
+pseudo.txt
+
+- 2 players
+- take turns answer math Qs
+- player loses life if mis-answer
+- players have 3 lives
+
+~* CLASSES *~
+- player
+  - player index
+  - lives count
+
+- math Q
+  - generate two random integers between 1 and 9 (inclusive)
+  - correct answer
+  - question string
+
+- terminal prompts
+  - turn separation (e.g., NEW TURN)
+  - question for player[i]
+  - indication of correctness
+    - if correct
+      "good"
+      else
+      "bad"
+  - life counter
+  - end game condition
+
+- logic handler
+  - print TP_separation
+  - print TP_question
+  - await get.chomp input
+  - if player_answer != correct_answer
+    - reduce player[i] life by 1
+  - print TP_correctness
+  - print TP_lives
+  - repeat while TP_lives > 0
+  - print TP_end

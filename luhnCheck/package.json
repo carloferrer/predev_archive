@@ -1,0 +1,24 @@
+{
+  "name": "luhn",
+  "version": "1.0.0",
+  "description": "Checks if a number passed to the main application satisfies the Luhn Algorithm.",
+  "main": "luhn.js",
+  "scripts": {
+    "start": "node luhn.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloferrer/luhnCheck.git"
+  },
+  "author": "Carlo Ferrer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloferrer/luhnCheck/issues"
+  },
+  "homepage": "https://github.com/carloferrer/luhnCheck#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
